@@ -4,7 +4,6 @@ from deploy import update, main
 
 
 app = Flask(__name__)
-CORS(app)
 
 @app.route('/api/noti', methods=['POST'])
 def update_KB():
